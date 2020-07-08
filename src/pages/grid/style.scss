@@ -1,190 +1,10 @@
 
-.poster {
-    position: relative;    
-    background: #EEE4DB; 
-   
-    
-
-
-  &__palochki {
-    list-style-type: none; 
-    position: absolute;
-    padding: 0;
-    left: 28px;
-  }
-  &__cifra {
-    width: 61px;
-}
-  &__first-conteiner {
-    padding-left: 133px;
-    padding-bottom: 89px;
-    padding-top: 89px;
-    margin-top: 130px;
-    position: relative;
-    @media (max-width: 768px)
-    {
-        margin-top: 30px;
-        overflow: hidden;
-    }
-
-
-}
-  &__title {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 110%;
-    color: #1E0606;  
-    margin-top: 0;
-}
-  &__picture {
-    display: flex;
-    position: absolute;
-    width: 635.49px;
-    height: 461px;
-    right: 106px;
-    bottom: 0%;  
-
-    @media (max-width: 1180px) {
-
-    width: 50vw;
-    height: 37.3vw;
-    right: 8px;
-}
-  }
-  &__Designed-in-Slovenia {
-    font-family: 'Crimson Text';
-    font-style: italic;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    margin-top: 0;
-}
-  &__down {
-    
-    height: 39px;
-    margin: 0;
-    background: #C29974;
-    @media (max-width: 768px) {
-        max-width: 678px;
-        
-     
-      }
-}
-
-  &__mini {
-    font-family: "Open Sans";
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 16px;
-color: #FFFFFF;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-
-}
-}
-
-
-.partners {
-    margin-top: 91px;
-    margin-bottom: 90px;
-    
-    
-        
-        padding: 0 15px;
-    
-
-    &__list {
-        list-style-type: none;
-        display:flex;
-        justify-content: space-between;
-        padding: 0;
-        align-items: center;
-        flex-wrap: wrap;
-        
-        
- 
-        &__width {
-        @media (max-width: 768px) {
-            
-            width: 106px;
-            
-         
-          }
-          
-        }
-    }
-}
 
 
 
-.d-l-k {
- display: flex;
- justify-content: space-around;
- position: relative; 
- padding: 0 15px;
- overflow: hidden;
- padding-bottom: 60px;
- margin-bottom: 60px;
-    
-    
-    
-        @media (max-width: 375px)
-     {
-        
-        flex-wrap: wrap;
-    }
-    
-  
-
-}
-
-.design-Life-kids {
-      
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: bold;
-font-size: 38px;
-line-height: 46px;
-text-transform: uppercase;
-color: #1E0606;
-}
-
-.design-Life-kids-smalll {
-    width: 483px;
-height: 66px;
 
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #1E0606;
-}
 
-.about-Us {
-    width: 85px;
-height: 33px;
-
-font-family: 'Crimson Text';
-font-style: italic;
-font-weight: normal;
-font-size: 26px;
-line-height: 32px;
-color: #1E0606;
-}
-.about-us:hover {
-    opacity: 0.5;
-}
-.about-us:active {
-    opacity: 0.2;
-}
 
 .design-Life-kids-small {
     width: 100%;
@@ -613,21 +433,189 @@ margin-top: 26px;
         
 }
 
-.map {
-    position: relative;
-    
 
-  &__iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-top: 20px;
-      
-      
 
-  }  
+
+
+
+
+.category-title-second {
+    margin-top: 60px;
+    font-family: 'Montserrat';
+   font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+text-transform: uppercase;
+color: #1E0606;
+@media ( max-width: 768px )
+        { 
+            font-size: 36px;
+            line-height: 44px;
+        }
+        @media ( max-width: 375px )
+        { 
+            font-size: 24px;
+            line-height: 29px;
+        }
 }
 
+.vector-button-head {
+    
+    list-style-type: none;
+    padding-left: 0;     
+    display: flex;
+    align-items: center;
+    
+}
+.nav-vector-button-home {
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+margin-right: 20px;
 
+
+        
+        @media ( max-width: 375px )
+        { 
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+.vector {
+    
+    margin-right: 20px;
+
+
+}
+.nav-vector-button-catalog {
+   
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+opacity: 0.5;
+@media ( max-width: 375px )
+        { 
+            font-size: 16px;
+            line-height: 20px;
+        }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 215px);
+    @media ( max-width: 768px )
+        { 
+            grid-template-columns: repeat(2, 1fr);
+            
+        }
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      &_1 {
+        background-color: aqua; 
+        grid-column: 1/3;
+        grid-row: 1/3;
+        @media ( max-width: 768px )
+        { 
+            grid-column: 1/3;
+            max-height: 430px;
+        }
+    }
+          
+      &_2 {
+        background-color: aquamarine;  
+        grid-column: 3/5;
+        grid-row: 1/3;
+        @media ( max-width: 768px )
+        { 
+            grid-column: 1/3;
+            max-height: 278px;
+        }
+      } 
+      &_3 {
+        background-color: blue;
+        grid-column: 1/2;
+        grid-row: 3/5;
+        @media ( max-width: 768px )
+        { 
+            grid-column: 1/2;
+            max-height: 430px;
+        }
+      }
+      &_4 {
+        background-color: blueviolet;
+        grid-column: 2/4;
+        grid-row: 3/5;
+        @media ( max-width: 768px )
+        { 
+            grid-column: 1/3;
+            max-height: 430px;
+        }
+      }
+      &_5 {
+        background-color: brown;  
+        grid-column: 4/5;
+        grid-row: 3/7;
+        @media ( max-width: 768px )
+        { 
+            grid-column: 2/3;
+            max-height: 700px;
+        }
+      }
+      &_6 {
+        background-color: chartreuse;
+        grid-column: 1/3;
+        grid-row: 5/7;
+        @media ( max-width: 768px )
+        { 
+            grid-column: 1/2;
+            max-height: 350px;
+        }
+      }
+      &_7 {
+        background-color: chocolate;  
+        grid-column: 3/4;
+        grid-row: 5/7;
+        @media ( max-width: 768px )
+        { 
+            grid-column: 2/3;
+            max-height: 430px;
+        }
+      }
+      &_8 {
+          
+        background-color: #F7F8FA;  
+        grid-column: 1/2;  
+        @media ( max-width: 768px )
+        { 
+            grid-column: 1/2;
+            max-height: 350px;
+        }
+        &_insta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+      }
+      &_9 {
+        background-color:#2C2C2C;  
+        grid-column: 2/5;  
+        @media ( max-width: 768px )
+        { 
+            grid-column: 1/3;
+            max-height: 215px;
+        }
+        
+      }
+    }
+}
