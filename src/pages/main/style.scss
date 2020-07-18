@@ -37,7 +37,7 @@
     line-height: 110%;
     color: #1E0606;  
     margin-top: 0;
-    @media (max-width: 375px) {
+    @media (max-width: 430px) {
         font-size: 36px;
     }
 }
@@ -49,7 +49,7 @@
     right: 106px;
     bottom: 0%;  
 
-    @media (max-width: 1180px) {
+    @media (max-width: 768px) {
 
     width: 50vw;
     height: 37.3vw;
@@ -119,6 +119,12 @@ text-transform: uppercase;
             
          
           }
+          @media (max-width: 430px) {
+            
+            width: 149px;
+            
+         
+          }
           
         }
     }
@@ -137,7 +143,7 @@ text-transform: uppercase;
     
     
     
-        @media (max-width: 375px)
+        @media (max-width: 430px)
      {
         
         flex-wrap: wrap;
@@ -212,7 +218,7 @@ background: #E1F0F7;
     background: #E1F0F7;
     width: 100%;
     margin-left: 57px;
-    @media (max-width: 375px) {
+    @media (max-width: 430px) {
         margin-left: 0;
         margin-top: 20px;
     }
@@ -250,7 +256,7 @@ margin-top: 90px;
     width: 259px;
     min-width: 259px;
     height: 249px;
-    @media (max-width: 375px)
+    @media (max-width: 430px)
  {
     width: 247px;
     min-width: 247px;
@@ -286,11 +292,11 @@ padding: 0;
 border: 0;
 margin-right: 6px;
 width: 100%;
-@media (max-width: 768px)
+  @media (max-width: 768px)
  {
     max-width: 36px;
     max-height: 36px;
-    @media (max-width: 375px)
+  @media (max-width: 430px)
  {
     max-width: 33px;
     max-height: 33px;
@@ -370,7 +376,7 @@ color: #FFFFFF;
   
     
     
-        @media (max-width: 375px)
+        @media (max-width: 430px)
      {
         padding: 0 15px;
         flex-wrap: wrap;
@@ -380,12 +386,12 @@ color: #FFFFFF;
         width: 40.6%;
         height: 100%;
 
-        @media (max-width: 1024px) 
+        @media (max-width: 768px) 
     {
         width: 100%;
     }
    
-        @media (max-width: 375px)
+        @media (max-width: 430px)
         {
             width: 100%;
             height: 100%;
@@ -397,15 +403,16 @@ color: #FFFFFF;
 .woman {
     
     margin-left: 120px;
-    @media (max-width: 1024px) 
+    @media (max-width: 768px) 
     {
-        width: 46%;
+        
+        margin-left: 56px;
     }
    
-    @media (max-width: 375px) 
+    @media (max-width: 430px) 
     {
         margin-left: 0;
-        width: 100%;
+        
     }
    
 }
@@ -462,6 +469,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 22px;
+max-width: 480px;
 @media (max-width: 768px)
 {
     font-size: 14px;
