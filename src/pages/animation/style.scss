@@ -1,7 +1,15 @@
 .heading {
   
+@media (max-width: 1024px) {
+    padding-left: 60px;
+}
+
+@media (max-width: 375px) {
+    padding-left: 20px;
+}
+
   &__named {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;

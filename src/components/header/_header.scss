@@ -35,6 +35,9 @@
     @media (max-width: 1024px) {
       display: flex;
     }
+    @media (max-width: 365px) {
+      padding-right: 20px;
+    }
    }
   
 
@@ -101,6 +104,7 @@
     padding-top: 35px;
     }
     
+
     &:hover {
     opacity: 0.5 ;
     transition: opacity .4s;
