@@ -6,6 +6,11 @@
 .contact-us-box {
     display: flex;
     justify-content: space-between;
+    @media ( max-width: 1024px )
+    {
+        flex-direction: column-reverse;
+    }
+
 }
 
 .An-expert {
@@ -32,8 +37,12 @@
 }
 
 .container-left {
-    width: 680px;
+    
     margin-bottom: 60px;
+    @media ( max-width: 1024px )
+    {
+        padding-left: 60px;
+    }
 }
 
 .contaier-right {

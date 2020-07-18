@@ -35,7 +35,8 @@ line-height: 22px;
 padding-left: 0;
 color: #FFFFFF;
   
- 
+  
+
 @media (max-width: 569px)
  {
     margin-bottom: 0;
@@ -46,11 +47,11 @@ color: #FFFFFF;
 }
  
 
-  &:hover {
-    color: #C29974;
+  // &:hover {
+  //   color: #C29974;
     
-  }
-
+  // } 
+  
 }
   &__second {
     margin-bottom: 100px;
@@ -79,13 +80,8 @@ color: #FFFFFF;
 }
   &__margin {
     margin-bottom: 15px;
-    &:hover {
-        opacity: 0.5;
-    }
-    :active {
-        opacity: 0.2;
-    }    
-}
+ 
+ }
   &__web-design {
     font-family: 'Open Sans';
     font-style: normal;
@@ -171,5 +167,17 @@ color: #FFFFFF;
   transition: fill .4s;
   fill:#836E5B; 
   
+}
+}
+.about-us {
+  margin-bottom: 15px;
+  padding-left: 0;
+
+&:hover  {
+  transition:  .4s;
+  opacity: 0.5;
+}
+&:active {
+  opacity: 0.2;
 }
 }

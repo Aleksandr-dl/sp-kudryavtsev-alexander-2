@@ -57,35 +57,50 @@
 
 
     &__lanterns {
-        max-width: 100%;
+        max-width: 151px;
+    width: 9vw;
+    max-height: 395px;
+    height: 24vw;
         bottom: 29%;
         left: 36%;
         position: absolute;
         z-index: 4;
     }
     &__lanterns-2 {
-        max-width: 100%;
+        max-width: 151px;
+    width: 9vw;
+    max-height: 395px;
+    height: 24vw;
         bottom: 29%;
         left: 95%;
         position: absolute;
         z-index: 4;
     }
     &__lantern {
-        max-width: 100%;
+        max-width: 214px;
+        width: 12.8vw;
+        max-height: 562px;
+        height: 34.3vw;
         bottom: 6%;
         left: 72%;
         position: absolute;
         z-index: 10;
     }
     &__sun {
-        max-width: 100%;
+        max-width: 240px;
+    max-height: 83px;
+    width: 5vw;
+    height: 5vw; 
         bottom: 95%;
         left: 60%;
         position: absolute;
         z-index: 0;
     }
     &__cloud-1 {
-        max-width: 100%;
+        max-width: 240px;
+        max-height: 83px;
+        width: 14vw;
+        height: 3vw; 
         bottom: 95%;
         left: 50%;
         position: absolute;
@@ -94,7 +109,10 @@
         z-index: 1;
     }
     &__cloud-2 {
-        max-width: 100%;
+        max-width: 240px;
+        max-height: 83px;
+        width: 14vw;
+        height: 2vw; 
         bottom: 85%;
         left: 50%;
         position: absolute;
@@ -104,7 +122,10 @@
        
     }
     &__cloud-3 {
-        max-width: 100%;
+        max-width: 240px;
+        max-height: 83px;
+        width: 14vw;
+        height: 2vw; 
         bottom: 85%;
         left: 50%;
         position: absolute;
@@ -113,7 +134,10 @@
         z-index: 1;
     }
     &__cloud-4 {
-        max-width: 100%;
+        max-width: 240px;
+        max-height: 83px;
+        width: 14vw;
+        height: 2vw; 
         bottom: 95%;
         left: 70%;
         position: absolute;
@@ -122,21 +146,30 @@
            
         }
     &__man {
-        max-width: 100%;
+        max-width: 205px;
+    width: 8vw;
+    max-height: 353px;
+    height: 21.5vw;
         bottom: 7%;
         left: 25%;
         position: absolute;
         z-index: 10;
     }
     &__woman-suitcases {
-        max-width: 100%;
+        max-width: 191px;
+    width: 12vw;
+    max-height: 95px;
+    height: 5.8vw;
         bottom: 7%;
         left: 18.5%;
         position: absolute;
         z-index: 10;
     }
     &__woman {
-        max-width: 100%;
+        max-width: 98px;
+    width: 6vw;
+    max-height: 267px;
+    height: 16.3vw;
         bottom: 7%;
         left: 19%;
         position: absolute;
@@ -144,7 +177,8 @@
     }
     &__message-taxi {
         opacity: 0;
-        max-width: 100%;        
+        max-height: 86px;
+        height: 8.24vw;      
         bottom: 44%;
         left: 36%;
         position: absolute;
@@ -155,7 +189,8 @@
     
     }
     &__taxi {
-        max-width: 100%; 
+        max-width: 868px; 
+        width: 52.7vw;
         position: absolute;
         left: -50%;
         bottom: 15%;
@@ -166,7 +201,10 @@
     
     }
     &__car_4 {
-        max-width: 100%; 
+        max-width: 268px;
+        max-height: 126px;
+        width: 16vw;
+        height: 7.7vw;
         position: absolute;
         left: -400px;
         bottom: 31%;
@@ -176,7 +214,10 @@
         
     }
     &__old-car {
-        max-width: 100%; 
+        max-width: 246px;
+    max-height: 65px;
+    width: 15vw;
+    height: 4vw; 
         position: absolute;
         left: 200px;
         bottom: 40%;
@@ -190,7 +231,10 @@
        
     }
     &__car-2 {
-        max-width: 100%; 
+        max-width: 240px;
+    max-height: 83px;
+    width: 17vw;
+    height: 6vw; 
         position: absolute;
         left: 10%;
         bottom: 42%;
@@ -198,7 +242,10 @@
         z-index: 0;
     }
     &__car-1 {
-        max-width: 100%; 
+        max-width: 246px;
+    max-height: 88px;
+    width: 17vw;
+    height: 6vw; 
         position: absolute;
         left: 80%;
         bottom: 35%;
@@ -207,8 +254,9 @@
     }
     &__message-man {
         opacity: 0;
-        max-width: 100%;
-        bottom: 54%;
+        max-height: 95px;
+        height: 7.24vw;
+        bottom: 56%;
         left: 24.5%;
         position: absolute;
         animation: message-man 10s forwards;
@@ -217,7 +265,10 @@
     }
     &__message-woman {
         opacity: 0;
-        max-width: 100%;
+        max-width: 167px;
+        width: 13vw;
+        max-height: 108px;
+        height: 8.8vw;
         bottom: 42%;
         left: 14%;
         position: absolute;
@@ -226,25 +277,34 @@
         z-index: 10;
     }
     &__hand-man {
-        max-width: 100%;
-        bottom: 32%;
-        left: 25%;
+        max-width: 89px;
+    width: 6vw;
+    max-height: 128px;
+    height: 7.8vw;
+        bottom: 33%;
+        left: 26.5%;
         position: absolute;
         animation: hand-man 10s forwards;
         animation-iteration-count:infinite ;
         z-index: 9;
     }
     &__man-suitcases {
-        max-width: 100%;
+        max-width: 205px;
+    width: 6vw;
+    max-height: 353px;
+    height: 11.5vw;
         bottom: 6.5%;
-        left: 31%;
+        left: 33%;
         position: absolute;
         z-index: 10;
     }
     &__hand-man2 {
-        max-width: 100%;
-        bottom: 29%;
-        left: 30.8%;
+        max-width: 205px;
+    width: 2vw;
+    max-height: 353px;
+    height: 1.5vw;
+        bottom: 33%;
+        left: 32%;
         position: absolute;
         z-index: 10;
     }
@@ -329,15 +389,16 @@
 
 @keyframes cloud-1 {
     from {
-       
-       bottom: 92%;
-       left: 110%;
+        bottom: 85%;
+        left: 120%;
+        
+     }
+     to {
+        
+        bottom: 85%;
+        left: -5%;
+     
     }
-    to {
-       
-       bottom: 92%;
-       left: -20%;
-   }
 }
 
 @keyframes cloud-2 {
