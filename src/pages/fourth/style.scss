@@ -62,6 +62,7 @@ color: #1E0606;
     border: 0;
     background: none;
     transition: .4s;
+    cursor: pointer;
 
     &:hover {
           fill: #C29974;
@@ -84,6 +85,7 @@ color: #1E0606;
 .number {
     border: 0;
     background: none;
+    cursor: pointer;
     
 }
 .number:hover {

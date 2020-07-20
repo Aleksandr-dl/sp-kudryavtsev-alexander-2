@@ -20,7 +20,7 @@ margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    @media (max-width: 375px)
+    @media (max-width: 600px)
     {
     flex-wrap: wrap;
     }
@@ -37,7 +37,7 @@ color: #FFFFFF;
   
   
 
-@media (max-width: 569px)
+@media (max-width: 600px)
  {
     margin-bottom: 0;
     
@@ -55,9 +55,18 @@ color: #FFFFFF;
 }
   &__second {
     margin-bottom: 100px;
+    @media (max-width:600px) {
+      margin-bottom: 70px;
+    }
 }
   &__center {
     margin-left: 45px;
+    @media (max-width:600px)
+     {
+      margin-left: 0;
+      display: flex;
+      padding-bottom: 15px;
+    }
 }
   &__right {
     margin-right: 85px;
@@ -124,6 +133,9 @@ color: #FFFFFF;
   &__rating {
     display: flex;
     align-items: center;
+    @media (max-width:600px) {
+      padding-bottom: 10px;
+    }
     
 }
   &__rating-buttons {
